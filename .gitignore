@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE (PyCharm / VS Code)
+.idea/
+.vscode/
+
+# Executável gerado pelo PyInstaller
+build/
+dist/
+*.spec
+
+# Dados biométricos (fotos do cadastro facial): NUNCA versionar
+base_rostos/
+
+# Pesos dos modelos (o YOLOv8n é baixado automaticamente na primeira execução)
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Bases de vídeo e anotações (TownCentre, MOT17): baixar das fontes oficiais
+Base de dados/
+*.mp4
+*.avi
+*.mkv
+
+# Saídas geradas pelo sistema e pelos scripts de avaliação
+resultados_avaliacao/
+relatorio_*.csv
+gpu_*.csv
+*.png
+*.top

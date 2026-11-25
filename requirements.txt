@@ -1,0 +1,11 @@
+# Dependências do VisioFlow AI (Python 3.10, GPU NVIDIA com CUDA 12.1)
+# Instalação: pip install -r requirements.txt
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.2.2+cu121
+torchvision==0.17.2+cu121
+numpy==1.26.4
+opencv-python==4.10.0.84
+ultralytics==8.4.211
+facenet-pytorch==2.6.0
+customtkinter==5.2.2
+lap

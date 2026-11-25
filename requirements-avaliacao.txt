@@ -1,0 +1,7 @@
+# Dependências adicionais dos scripts de avaliação
+# (avaliar_rastreamento.py e analisar_gpu.py)
+# Instalação: pip install -r requirements-avaliacao.txt
+motmetrics==1.4.0
+pandas==2.3.3
+scipy==1.15.3
+matplotlib
